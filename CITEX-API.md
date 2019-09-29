@@ -100,7 +100,7 @@
 ## 4.	Fetch Historical Trades Data
 * `Request` 
 
-   GET /api/v1/common/allticker
+   GET /trades
 * `Param` 
 
    String symbol : eth_btc
@@ -124,7 +124,7 @@
 ## 5.	Fetch Candelstick Data
 * `Request` 
 
-   GET /mapi/quot/queryCandlestick
+   GET /candles
 * `Param` 
 
    String symbol : eth_btc
